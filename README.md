@@ -1,3 +1,14 @@
+![POKEDEX](pokedex.png)
+
+Liste des Pokemons de 1ère génération extraite de l'API https://pokebuildapi.fr/api/v1/pokemon/limit/151
+
+L'argument après "limit/" permet de ne demander qu'un certain nb de pokemons 
+
+![Details Pokemon](pokemonDetails.png)
+
+Détails de chaque pokemon extraits de l'API https://pokebuildapi.fr/api/v1/pokemon/ + n° id du pokemon
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
