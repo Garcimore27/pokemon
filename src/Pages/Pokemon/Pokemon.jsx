@@ -1,14 +1,8 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
-import { Link } from 'react-router-dom';
-// import {useQuery} from 'react-query';
+import { useParams, Link } from "react-router-dom";
 
 function Pokemon() {
   const { pokemonId } = useParams()
-    // const query = useQuery();
-    // const choixPokemon = JSON.parse(query.get("choixPokemon"));
-    // console.log(choixPokemon);
-
   const addr2 = "https://pokebuildapi.fr/api/v1/pokemon/" + pokemonId.toString() ;
 
   const style1 = {margin: '1rem'}; //espacement entre les cartes
